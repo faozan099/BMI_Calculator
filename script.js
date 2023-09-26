@@ -1,8 +1,8 @@
 let button = document.getElementById("btn");
 
 button.addEventListener("click", () => {
-  const height = parseFloat(document.getElementById("height").value); // Menggunakan parseFloat untuk memungkinkan desimal
-  const weight = parseFloat(document.getElementById("weight").value); // Menggunakan parseFloat untuk memungkinkan desimal
+  const height = parseFloat(document.getElementById("height").value);
+  const weight = parseFloat(document.getElementById("weight").value);
   const hasil = document.getElementById("output");
   let height_status = false;
   let weight_status = false;
@@ -16,7 +16,6 @@ button.addEventListener("click", () => {
   }
 
   if (isNaN(weight) || weight <= 0) {
-    // Menggunakan isNaN untuk memeriksa apakah bukan angka
     document.getElementById("w-error").innerHTML =
       "Please provide a valid weight";
   } else {
