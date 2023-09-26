@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url('img/bg.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,7 +14,7 @@ body{
     font-size: 1rem;
 }
 
-main{
+main {
     background-color: white;
     width: 680px;
     height: 560px;
@@ -26,10 +26,37 @@ main{
     flex-direction: column;
 }
 
-.tittle{
+.tittle {
+    padding-top: 40px;
     text-align: center;
 }
 
-.tittle p{
+.tittle p {
     font-weight: 600;
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 12px;
+    border: none;
+    border-bottom: solid 2px black;
+}
+
+button{
+    margin-top: 12px;
+    margin-bottom: 20px;
+    height: 36px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
 }
